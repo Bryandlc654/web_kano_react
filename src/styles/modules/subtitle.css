@@ -3,7 +3,7 @@
   display: flex;
   text-align: center;
   align-items: center;
-  background-image: url("https://github.com/Bryandlc654/repositorio_imagenes/blob/main/SOBRE.png?raw=true");
+  background-image: url("https://github.com/Bryandlc654/Web_Kano/blob/main/img/SOBRE.png?raw=true");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,12 +15,9 @@
 }
 
 .galeria{
-  background-image: url("https://github.com/Bryandlc654/repositorio_imagenes/blob/main/NUESTRA.png?raw=true");
+  background-image: url("https://github.com/Bryandlc654/Web_Kano/blob/main/img/NUESTRA.png?raw=true");
 }
 
 .equipo{
-  background-image: url("https://github.com/Bryandlc654/repositorio_imagenes/blob/main/CONOCE.png?raw=true");
-}
-.empresas{
-  background-image: url("/img/clientes.png");
+  background-image: url("https://github.com/Bryandlc654/Web_Kano/blob/main/img/NUESTRA.png?raw=true");
 }

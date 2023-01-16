@@ -1,3 +1,4 @@
+console.log("Conexion")
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -4,7 +4,7 @@ const Team = () => {
   <section className="section section--subtitle equipo">
     <div className="container">
       <div className="background__container">
-        <h3>NUESTRO EQUIPO</h3>
+        <h3>EQUIPO</h3>
       </div>
     </div>
   </section>
