@@ -3,7 +3,10 @@ import './App.css'
 import About from './components/sections/About'
 import Header from './components/sections/Header'
 import Hero from './components/sections/Hero'
-import './assets/js/index'
+import Gallery from './components/sections/Gallery'
+import Team from './components/sections/Team'
+import Contact from './components/sections/Contact'
+import Footer from './components/sections/Footer'
 
 
 
@@ -16,7 +19,13 @@ function App() {
   <main>
     <Hero/>
     <About/>
+    <Gallery/>
+    <Team/>
+    <Contact/>
   </main>
+  <footer>
+    <Footer/>
+  </footer>
   </>
   )
 }
