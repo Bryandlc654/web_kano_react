@@ -1,0 +1,141 @@
+
+
+.card__services {
+  --border-radius: 0.75rem;
+  --primary-color: #ff955d;
+  --secondary-color: #130830;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.107);
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #6e6b803a;
+  &> * + * {
+    margin-top: 1.1em;
+  }
+}
+
+
+.card__content {
+  color: var(--secondary-color);
+  font-size: 0.86rem;
+}
+
+.card__title {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.card__title span{
+ margin-right: 1rem;
+ color: #ff955d;
+ font-size: 1.5rem;
+}
+
+.card__title .text__active{
+ color: #ffffff;
+}
+
+.card__date {
+  color: #6e6b80;
+  font-size: 0.8rem;
+}
+
+.card__arrow {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 0.4rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card svg {
+  transition: 0.25s;
+}
+
+/* hover */
+.card__services:hover .card__title {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.card__services:hover .card__arrow {
+  background: rgb(11, 5, 5);
+}
+
+.card__services:hover .card__arrow svg {
+  transform: translateX(3px);
+}
+
+
+
+.card--testimonios {
+  max-width: 30rem;
+  height: 274px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+  border: 1px solid #6e6b803c;
+  box-shadow: -3px 0px 40px 0px rgb(89 89 89 / 13%);
+}
+
+.card-image--testimonios {
+  background-color: rgb(236, 236, 236);
+  background-image: url('https://elcomercio.pe/resizer/g1XiOQReeuWPOSuy-PXG_CJ1B4I=/1200x800/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/G3V23OZOLVE6ZGO6QQ7DUSBSXU.jpg');
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image--testimonios:hover {
+  transform: scale(0.98);
+}
+
+.category--testimonios {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category--testimonios:hover {
+  cursor: pointer;
+}
+
+.heading--testimonios {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading--testimonios:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
