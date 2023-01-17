@@ -1,0 +1,87 @@
+.footer {
+  background: rgb(223, 223, 223);
+  padding: 2rem 9%;
+
+  & .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 0.5rem;
+    margin: 0 auto;
+  }
+
+  &.box-container .box h3 {
+    font-size: 1.2rem;
+    color: #000;
+    padding: 0.5rem 0;
+  }
+  & .box-container .box .links {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    padding: 0.7rem 0;
+    text-decoration: none;
+  }
+
+  & .box-container .box .links i {
+    color: var(--background-color-button);
+    padding-right: 0.3rem;
+  }
+  & .box-container .box .links:hover i {
+    padding-right: 1rem;
+  }
+
+  & .box-container .box p {
+    line-height: 1.5;
+    font-size: 1;
+    color: #000;
+    padding: 0.5rem 0;
+  }
+
+  & .box-container .box .share a {
+    line-height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--background-color-button);
+    margin-right: 0.2rem;
+  }
+  & .box-container .box .share a:hover {
+    color: #000;
+  }
+  & .credit {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  & .credit span {
+    color: var(--background-color-button);
+  }
+  & .credit a {
+    color: #000;
+    text-decoration: none;
+  }
+  & .box-container .box .input {
+    width: 100%;
+    height: 2.5rem;
+    margin: 0.7rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    text-transform: none;
+    font-weight: 400;
+  }
+}
+
+.btn {
+  margin-top: 0.5rem;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: var(--background-color-button);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
